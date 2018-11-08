@@ -4,7 +4,7 @@ For an interactive notebook:     [![Binder](https://mybinder.org/badge.svg)](htt
 
 ## Question:
 
-Suppose we are given a six-sided die where the *i*th side has probability $P_{i}$, of coming up on a roll (*i* = 0, 1, ..., 5). Let **P** = ($\frac{1}{6}$, $\frac{1}{12}$, $\frac{1}{3}$, $\frac{1}{12}$, $\frac{1}{24}$, $\frac{1}{24}$) be the vector with ith entry, $P_{i}$. Write code to simulate rolling the die 1000 times (store the sides you roll in a vector). Use the Python Matplotlib 'plt.hist' function to plot a histogram of of the number of times each side of the die is rolled (make sure you specify the bin edges as input to 'hist'). Also calculate the median and mean side that are rolled using the corresponding commands in Python ('np.mean' and 'np.median'). Here is some pseudo-code for the method.
+Suppose we are given a six-sided die where the *i*th side has probability P<sub>i</sub>, of coming up on a roll (*i* = 0, 1, ..., 5). Let **P** = (1/6, 1/12, 1/3, 1/12, 7/24, 1/24) be the vector with ith entry, P<sub>i</sub>. Write code to simulate rolling the die 1000 times (store the sides you roll in a vector). Use the Python Matplotlib 'plt.hist' function to plot a histogram of of the number of times each side of the die is rolled (make sure you specify the bin edges as input to 'hist'). Also calculate the median and mean side that are rolled using the corresponding commands in Python ('np.mean' and 'np.median'). Here is some pseudo-code for the method.
 
 1. Store the 'np.cumsum' of P in a vector, 'Psum'
 2. Sreate a vector, 'sides', with length 10000 to store the sides chosen on each roll.
